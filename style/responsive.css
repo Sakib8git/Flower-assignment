@@ -1,0 +1,44 @@
+/* small */
+@media screen and (max-width: 576px) {
+  .nav-con {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .list-item {
+    display: none;
+  }
+
+  .banner-con {
+    flex-direction: column-reverse;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+    margin-left: -26px;
+    margin-bottom: 13px;
+  }
+  .banner-discription {
+    font-size: 0.875rem;
+    margin-left: -26px;
+  }
+  .banner-img {
+    margin-bottom: 28px;
+  }
+}
+
+/* medium */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-con {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+
+   .banner-con {
+    flex-direction: column-reverse;
+  }
+
+  
+  .banner-img {
+    margin-bottom: 28px;
+  }
+}
