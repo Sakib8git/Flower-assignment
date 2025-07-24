@@ -3,6 +3,7 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 :root {
   --primary-color: #e95a08;
@@ -31,7 +32,15 @@
   background-color: var(--primary-color);
   border: none;
   font-weight: 600;
+  transition: all .2s ease-out;
 }
+.button-primary:hover {
+  
+  color: rgb(0, 0, 0);
+  background-color: #93fb74;
+  
+}
+
 
 .colored-text {
   color: var(--primary-color);
@@ -97,7 +106,7 @@
 
 /* plant */
 .plants-con {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .plamt-discription {
   margin-bottom: 50px;
@@ -158,6 +167,12 @@
   width: 420px;
   z-index: 10;
   filter: drop-shadow(2px 2px 5px #000000a9);
+  transition: all .4s ease-in .1s;
+}
+.badge-pic:hover {
+  transform: rotate(15deg)
+  scale(1.2) ;
+  
 }
 .plant-lover-text {
   flex: 1;
@@ -307,6 +322,13 @@
   background-color: var(--primary-color);
   color: white;
   font-weight: 600;
+  transition: all .2s ease-out;
+}
+.form-button:hover {
+  
+  background-color: #ff874b;
+  color: rgb(0, 0, 0);
+  
 }
 
 /* footer */
@@ -326,7 +348,7 @@
   align-items: center;
   align-content: center;
   justify-content: space-around;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
 }
 .item {
@@ -353,12 +375,14 @@
   align-content: center;
   
   gap: 24px;
-  transition: all .5s ease-in-out .3s;
+  
+}
+
+.foot-icon {
+  transition: all .2s ease-in-out .03s;
+ 
 }
 .foot-icon:hover {
-  
- filter: drop-shadow(2px 2px 5px #000000a9);
-}
-.hide{
-  display: none;
+  transform: scale(1.5);
+ filter: drop-shadow(2px 2px 5px #00000063);
 }
