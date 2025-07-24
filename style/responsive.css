@@ -56,6 +56,44 @@
   .card-title {
     font-size: 14px;
   }
+
+  .plant-lover-con {
+  flex-direction:column ;
+  margin-top: -31px;
+  padding: 0;
+  margin-right: 17px;
+  margin-left: 17px;
+  gap: 18px;
+}
+.lover-main-pic {
+  width: 100%;
+  
+}
+.badge-pic{
+  display: none;
+}
+.plant-lover-text {
+  
+  margin-left: -40px;
+}
+.plant-lover-title {
+  font-size: 1.5rem;
+}
+
+.plant-lover-discription {
+  font-size: 14px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
 }
 
 /* medium */
@@ -76,6 +114,7 @@
   .plamt-discription {
     font-size: 14px;
     max-width: 330px;
+    margin: 20px auto;
   }
   .plant-card-con {
     grid-template-columns: repeat(2, 1fr);
@@ -86,4 +125,34 @@
     margin-left: 26px;
     /* margin-right: 16px; */
   }
+
+
+.plant-lover-con {
+  flex-direction:column ;
+  margin-top: 31px;
+  padding: 0;
+  
+  gap: 24px;
+}
+.lover-main-pic {
+  width: 100%;
+  
+}
+.badge-pic{
+  display: none;
+}
+.plant-lover-text {
+  
+  margin-left: -40px;
+}
+
+
+.plant-lover-discription {
+  font-size: 24px;
+  text-align: justify;
+}
+
+
+
+
 }
