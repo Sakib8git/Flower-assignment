@@ -42,13 +42,13 @@
     margin-left: 16px;
     margin-right: 16px;
   }
-  
+
   .plant-card {
     margin-top: 12px;
-    width: 200px;
+    width: 190px;
   }
   .card-button {
-    width: 200px;
+    width: 190px;
   }
   .price {
     font-size: 16px;
@@ -58,90 +58,94 @@
   }
 
   .plant-lover-con {
-  flex-direction:column ;
-  margin-top: -31px;
-  padding: 0;
-  margin-right: 17px;
-  margin-left: 17px;
-  gap: 18px;
-}
-.lover-main-pic {
-  width: 100%;
-  
-}
-.badge-pic{
-  display: none;
-}
-.plant-lover-text {
-  
-  margin-left: -40px;
-}
-.plant-lover-title {
-  font-size: 1.5rem;
-}
+    flex-direction: column;
+    margin-top: -31px;
+    padding: 0;
+    margin-right: 17px;
+    margin-left: 17px;
+    gap: 18px;
+  }
+  .lover-main-pic {
+    width: 100%;
+  }
+  .badge-pic {
+    display: none;
+  }
+  .plant-lover-text {
+    margin-left: -40px;
+  }
+  .plant-lover-title {
+    font-size: 1.5rem;
+  }
 
-.plant-lover-discription {
-  font-size: 14px;
-  text-align: justify;
-}
+  .plant-lover-discription {
+    font-size: 14px;
+    text-align: justify;
+  }
 
-.latest-deal-con{
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-padding: 0;
-margin-bottom: 120px;
-}
-.offer-box{
-  
-  
-  padding: 45px 100px;
-  
+  .latest-deal-con {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 120px;
+  }
+  .offer-box {
+    padding: 45px 100px;
+  }
+  .bloom {
+    max-width: 100%;
+    height: 148px;
+  }
 
-}
-.bloom{
-  max-width: 100%;
-  height: 148px;
-}
+  .ana {
+    max-width: 100%;
+    height: 148px;
+  }
 
-.ana {
-  max-width: 100%;
-  height: 148px;
-}
+  .latest-right {
+    max-width: 100%;
+  }
 
-.latest-right{
-  max-width: 100%;
-  
+  .right-latest-title,
+  .left-latest-title {
+    font-size: 1.25rem;
+  }
+  .right-latest-title {
+    margin-top: 40px;
+  }
+  .right-but {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
 
-}
+  .form-con {
+    margin-top: -100px;
+    height: 300px;
+  }
+  .form-title {
+    font-size: 1.25rem;
+    padding-top: 100px;
+  }
 
-.right-latest-title, .left-latest-title{
-  font-size:1.25rem ;
-}
-.right-latest-title{
-  margin-top: 40px;
-}
-.right-but{
-  font-size: 1rem;
-  margin-bottom: 30px;
-}
+  .input-button-con {
+    padding: 0 16px;
+  }
+  .footer-con {
+    grid-template-columns: 1fr;
+  }
+  .footer-items {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
 
-
-.form-con{
-  margin-top: -100px;
-  height: 300px;
-}
-.form-title{
-  font-size: 1.25rem;
-  padding-top: 100px;
-}
-
-.input-button-con{
-  padding: 0 16px;
-}
-
-
+  .footer-icon-con {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 }
 
 /* medium */
@@ -174,60 +178,68 @@ margin-bottom: 120px;
     /* margin-right: 16px; */
   }
 
+  .plant-lover-con {
+    flex-direction: column;
+    margin-top: 31px;
+    padding: 0;
 
-.plant-lover-con {
-  flex-direction:column ;
-  margin-top: 31px;
-  padding: 0;
-  
-  gap: 24px;
-}
-.lover-main-pic {
-  width: 100%;
-  
-}
-.badge-pic{
-  display: none;
-}
-.plant-lover-text {
-  
-  margin-left: -40px;
-}
+    gap: 24px;
+  }
+  .lover-main-pic {
+    width: 100%;
+  }
+  .badge-pic {
+    display: none;
+  }
+  .plant-lover-text {
+    margin-left: -40px;
+  }
 
+  .plant-lover-discription {
+    font-size: 24px;
+    text-align: justify;
+  }
+  .latest-deal-con {
+    flex-direction: column;
+  }
 
-.plant-lover-discription {
-  font-size: 24px;
-  text-align: justify;
-}
-.latest-deal-con{
-  flex-direction: column;
+  .bloom {
+    max-width: 100%;
+  }
 
-}
+  .ana {
+    max-width: 100%;
+  }
 
-.bloom{
-  max-width: 100%;
-  
-}
+  .latest-right {
+    max-width: 100%;
+  }
 
-.ana {
-  max-width: 100%;
-  
-}
+  .right-latest-title,
+  .left-latest-title {
+    font-size: 2.25rem;
+  }
+  .right-latest-title {
+    margin-top: 40px;
+  }
+  .right-but {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
 
-.latest-right{
-  max-width: 100%;
-  
-}
+  .footer-con {
+    grid-template-columns: 1fr;
+  }
+  .footer-items {
+    margin-top: 30px;
+    align-items: flex-start;
+  }
 
-.right-latest-title, .left-latest-title{
-  font-size:2.25rem ;
-}
-.right-latest-title{
-  margin-top: 40px;
-}
-.right-but{
-  font-size: 1rem;
-  margin-bottom: 50px;
-}
-
+  .footer-icon-con {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 300px;
+  }
 }

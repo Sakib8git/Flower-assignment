@@ -177,48 +177,43 @@
 
 /* latest deal */
 
-.latest-deal-con{
+.latest-deal-con {
   display: flex;
   gap: 20px;
-
 }
-.latest-left{
+.latest-left {
   display: flex;
   flex-direction: column;
   gap: 20px;
   flex: 1;
-
 }
-.left-latest-title{
+.left-latest-title {
   font-size: 1.25rem;
   font-weight: 700;
-position: relative;
+  position: relative;
   z-index: 2;
-
 }
-.latest-deal-button{
+.latest-deal-button {
   width: 79px;
-height: 32px;
-border: none;
-background-color: rgba(255, 255, 255, 0);
-border-bottom: 2px solid white;
-color: white;
-font-weight: 600;
-position: relative;
+  height: 32px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid white;
+  color: white;
+  font-weight: 600;
+  position: relative;
   z-index: 2;
-
 }
-.offer-box{
+.offer-box {
   background-size: cover;
   color: white;
   padding: 40px;
   border-radius: 8px;
   padding: 45px 40px;
   position: relative;
-overflow: hidden;
-
+  overflow: hidden;
 }
-.left-latest-title{
+.left-latest-title {
   margin-top: 65px;
 }
 .offer-box::before {
@@ -231,29 +226,27 @@ overflow: hidden;
 .bloom {
   background-image: url(../img/deal-bloom.png);
   height: 180px;
-  
 }
 .ana {
   background-image: url(../img/deal-ana.png);
   height: 180px;
 }
 
-.latest-right{
+.latest-right {
   flex: 2;
   background-image: url(../img/deal-zabo.png);
   background-size: cover;
   color: white;
   padding: 40px;
   border-radius: 8px;
-
 }
-.right-latest-title{
-  font-size:2.5rem ;
+.right-latest-title {
+  font-size: 2.5rem;
   position: relative;
   z-index: 2;
   margin-top: 200px;
 }
-.right-but{
+.right-but {
   font-size: 1.75rem;
   width: 138px;
   margin-top: 15px;
@@ -261,16 +254,15 @@ overflow: hidden;
 
 /* form */
 
-.form-con{
-position: relative;
+.form-con {
+  position: relative;
   background-image: url(../img/news-letter-bg.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
   height: 550px;
-   /* margin-bottom: 120px; */
-   margin-top: 120px;
-   
+  margin-bottom: 50px;
+  margin-top: 120px;
 }
 .form-con::before {
   content: " ";
@@ -280,7 +272,7 @@ position: relative;
   z-index: 1;
 }
 
-.form-title{
+.form-title {
   position: relative;
   font-size: 3.125rem;
   margin-bottom: 23px;
@@ -294,22 +286,19 @@ position: relative;
   align-items: center;
   justify-content: center;
   z-index: 2;
- 
 }
 
-.input-box{
+.input-box {
   height: 50px;
   width: 644px;
   padding-left: 20px;
   border: none;
   outline: none;
-  
 }
-.input-box:focus{
+.input-box:focus {
   background-color: #e3ffd3;
-  
 }
-.form-button{
+.form-button {
   height: 50px;
   width: 186px;
   margin-left: -20px;
@@ -318,4 +307,58 @@ position: relative;
   background-color: var(--primary-color);
   color: white;
   font-weight: 600;
+}
+
+/* footer */
+.footer-con {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.footer-text{
+  margin-top: 16px;
+  width: 359px;
+}
+.footer-items {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: 400;
+}
+.item {
+  margin-bottom: 32px;
+
+  font-weight: 400;
+}
+.item a {
+  color: rgb(107, 114, 128);
+  transition: all .2s ease-out .03s;
+}
+.item a:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid var(--primary-color);
+  
+}
+
+.footer-icon-con {
+  position: relative;
+  top: -130px;
+  right: -150px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
+  gap: 24px;
+  transition: all .5s ease-in-out .3s;
+}
+.foot-icon:hover {
+  
+ filter: drop-shadow(2px 2px 5px #000000a9);
+}
+.hide{
+  display: none;
 }
