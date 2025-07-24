@@ -91,6 +91,23 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.banner-con  {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideFade 1s ease forwards;
+}
+
+@keyframes slideFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
 .banner-title {
   font-size: 4.06rem;
   margin-bottom: 13px;
@@ -238,6 +255,19 @@ transform: rotate(15deg) scale(1.2);
   position: relative;
   overflow: hidden;
 }
+.offer-box {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideFade 1s ease forwards;
+}
+
+@keyframes slideFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .left-latest-title {
   margin-top: 65px;
 }
