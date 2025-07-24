@@ -135,7 +135,7 @@
 /* plant lover */
 .plant-lover-con {
   position: relative;
-  margin-top: 180px;
+  margin-top: 120px;
   display: flex;
   gap: 100px;
   align-items: center;
@@ -172,4 +172,88 @@
   margin-left: 22px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* latest deal */
+
+.latest-deal-con{
+  display: flex;
+  gap: 20px;
+
+}
+.latest-left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+
+}
+.left-latest-title{
+  font-size: 1.25rem;
+  font-weight: 700;
+position: relative;
+  z-index: 2;
+
+}
+.latest-deal-button{
+  width: 79px;
+height: 32px;
+border: none;
+background-color: rgba(255, 255, 255, 0);
+border-bottom: 2px solid white;
+color: white;
+font-weight: 600;
+position: relative;
+  z-index: 2;
+
+}
+.offer-box{
+  background-size: cover;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  padding: 45px 40px;
+  position: relative;
+overflow: hidden;
+
+}
+.left-latest-title{
+  margin-top: 65px;
+}
+.offer-box::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+  z-index: 1;
+}
+.bloom {
+  background-image: url(../img/deal-bloom.png);
+  height: 180px;
+  
+}
+.ana {
+  background-image: url(../img/deal-ana.png);
+  height: 180px;
+}
+
+.latest-right{
+  flex: 2;
+  background-image: url(../img/deal-zabo.png);
+  background-size: cover;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+
+}
+.right-latest-title{
+  font-size:2.5rem ;
+  position: relative;
+  z-index: 2;
+  margin-top: 200px;
+}
+.right-but{
+  font-size: 1.75rem;
+  width: 138px;
+  margin-top: 15px;
 }
